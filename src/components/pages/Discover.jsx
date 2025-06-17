@@ -125,26 +125,95 @@ const Discover = () => {
     );
   }
 
-  return (
+return (
     <motion.div 
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
-      className="h-full flex flex-col bg-background"
+      className="h-full flex flex-col bg-gradient-literary"
     >
-      <Header 
-        title="BookMatch" 
-        subtitle={`${likedBooks.length} books in your library`}
-        showLogo={true}
-        action={
-          <motion.button
-            whileHover={{ scale: 1.1 }}
-            whileTap={{ scale: 0.9 }}
-            className="p-2 rounded-full bg-surface"
+      {/* Hero Header Section */}
+      <div className="relative bg-gradient-hero overflow-hidden">
+        <div className="absolute inset-0 bg-black/10"></div>
+        <div className="relative px-6 py-8">
+          <motion.div
+            initial={{ y: -30, opacity: 0 }}
+            animate={{ y: 0, opacity: 1 }}
+            transition={{ duration: 0.8 }}
+            className="text-center"
           >
-            <ApperIcon name="RotateCcw" size={20} className="text-primary" />
-          </motion.button>
-        }
-      />
+            <div className="flex items-center justify-center mb-4">
+              <motion.div
+                animate={{ rotate: 360 }}
+                transition={{ duration: 20, repeat: Infinity, ease: "linear" }}
+                className="mr-3"
+              >
+                <ApperIcon name="BookOpen" size={32} className="text-white" />
+              </motion.div>
+              <h1 className="text-3xl font-display font-bold text-white animate-glow">
+                BookMatch
+              </h1>
+            </div>
+            
+            <motion.p
+              initial={{ y: 20, opacity: 0 }}
+              animate={{ y: 0, opacity: 1 }}
+              transition={{ delay: 0.3, duration: 0.8 }}
+              className="text-xl text-white/90 font-medium mb-2"
+            >
+              Discover Your Next Literary Adventure
+            </motion.p>
+            
+            <motion.p
+              initial={{ y: 20, opacity: 0 }}
+              animate={{ y: 0, opacity: 1 }}
+              transition={{ delay: 0.5, duration: 0.8 }}
+              className="text-white/80 text-sm mb-4"
+            >
+              Swipe through curated books tailored to your taste
+            </motion.p>
+            
+            <motion.div
+              initial={{ scale: 0 }}
+              animate={{ scale: 1 }}
+              transition={{ delay: 0.7, duration: 0.5 }}
+              className="flex items-center justify-center space-x-4"
+            >
+              <div className="flex items-center space-x-2 bg-white/20 backdrop-blur-sm rounded-full px-4 py-2">
+                <ApperIcon name="Heart" size={16} className="text-white" />
+                <span className="text-white text-sm font-medium">
+                  {likedBooks.length} books saved
+                </span>
+              </div>
+              
+              <motion.button
+                whileHover={{ scale: 1.1 }}
+                whileTap={{ scale: 0.9 }}
+                className="p-2 rounded-full bg-white/20 backdrop-blur-sm"
+                onClick={loadBooks}
+              >
+                <ApperIcon name="RotateCcw" size={20} className="text-white" />
+              </motion.button>
+            </motion.div>
+          </motion.div>
+        </div>
+        
+        {/* Floating Book Icons */}
+        <motion.div
+          animate={{ y: [0, -10, 0] }}
+          transition={{ duration: 3, repeat: Infinity, ease: "easeInOut" }}
+          className="absolute top-4 right-4 opacity-20"
+        >
+          <ApperIcon name="BookOpen" size={24} className="text-white" />
+        </motion.div>
+        
+        <motion.div
+          animate={{ y: [0, -15, 0] }}
+          transition={{ duration: 4, repeat: Infinity, ease: "easeInOut", delay: 1 }}
+          className="absolute top-12 left-4 opacity-20"
+        >
+          <ApperIcon name="Book" size={20} className="text-white" />
+        </motion.div>
+      </div>
 
       <FilterBar
         selectedGenres={selectedGenres}
