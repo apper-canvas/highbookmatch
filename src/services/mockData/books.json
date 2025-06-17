@@ -1,0 +1,112 @@
+[
+  {
+    "Id": 1,
+    "title": "The Seven Husbands of Evelyn Hugo",
+    "author": "Taylor Jenkins Reid",
+    "coverUrl": "https://images.unsplash.com/photo-1544947950-fa07a98d237f?w=300&h=450&fit=crop",
+    "synopsis": "A reclusive Hollywood icon finally tells her story to an unknown journalist, revealing decades of secrets and lies.",
+    "genres": ["Romance", "Historical Fiction", "Drama"],
+    "pageCount": 400,
+    "rating": 4.8,
+    "publishYear": 2017
+  },
+  {
+    "Id": 2,
+    "title": "Atomic Habits",
+    "author": "James Clear",
+    "coverUrl": "https://images.unsplash.com/photo-1481627834876-b7833e8f5570?w=300&h=450&fit=crop",
+    "synopsis": "An easy and proven way to build good habits and break bad ones through tiny changes that deliver remarkable results.",
+    "genres": ["Self-Help", "Psychology", "Productivity"],
+    "pageCount": 320,
+    "rating": 4.7,
+    "publishYear": 2018
+  },
+  {
+    "Id": 3,
+    "title": "The Midnight Library",
+    "author": "Matt Haig",
+    "coverUrl": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=300&h=450&fit=crop",
+    "synopsis": "Between life and death there is a library, and within that library, the shelves go on forever. Every book provides a chance to try another life you could have lived.",
+    "genres": ["Fantasy", "Philosophy", "Contemporary Fiction"],
+    "pageCount": 288,
+    "rating": 4.5,
+    "publishYear": 2020
+  },
+  {
+    "Id": 4,
+    "title": "Dune",
+    "author": "Frank Herbert",
+    "coverUrl": "https://images.unsplash.com/photo-1609619385084-bd0b3db0c95e?w=300&h=450&fit=crop",
+    "synopsis": "A stunning blend of adventure and mysticism, environmentalism and politics, this novel set on the desert planet Arrakis is considered one of the greatest achievements in science fiction.",
+    "genres": ["Science Fiction", "Adventure", "Classic"],
+    "pageCount": 688,
+    "rating": 4.3,
+    "publishYear": 1965
+  },
+  {
+    "Id": 5,
+    "title": "The Housemaid",
+    "author": "Freida McFadden",
+    "coverUrl": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=300&h=450&fit=crop",
+    "synopsis": "A psychological thriller about a housemaid who discovers dark secrets about the family she works for.",
+    "genres": ["Thriller", "Mystery", "Psychological"],
+    "pageCount": 336,
+    "rating": 4.6,
+    "publishYear": 2022
+  },
+  {
+    "Id": 6,
+    "title": "Project Hail Mary",
+    "author": "Andy Weir",
+    "coverUrl": "https://images.unsplash.com/photo-1532012197267-da84d127e765?w=300&h=450&fit=crop",
+    "synopsis": "A lone astronaut must save humanity from extinction in this brilliant hard science fiction adventure.",
+    "genres": ["Science Fiction", "Adventure", "Humor"],
+    "pageCount": 496,
+    "rating": 4.9,
+    "publishYear": 2021
+  },
+  {
+    "Id": 7,
+    "title": "The Thursday Murder Club",
+    "author": "Richard Osman",
+    "coverUrl": "https://images.unsplash.com/photo-1543002588-bfa74002ed7e?w=300&h=450&fit=crop",
+    "synopsis": "In a peaceful retirement village, four unlikely friends meet weekly to investigate cold cases. But when a brutal murder occurs on their very doorstep, the Thursday Murder Club find themselves in the middle of their first live case.",
+    "genres": ["Mystery", "Crime", "Humor"],
+    "pageCount": 368,
+    "rating": 4.4,
+    "publishYear": 2020
+  },
+  {
+    "Id": 8,
+    "title": "Educated",
+    "author": "Tara Westover",
+    "coverUrl": "https://images.unsplash.com/photo-1481482876894-cf7973646ef3?w=300&h=450&fit=crop",
+    "synopsis": "A memoir about a young girl who, kept out of school, leaves her survivalist family and goes on to earn a PhD from Cambridge University.",
+    "genres": ["Memoir", "Biography", "Education"],
+    "pageCount": 334,
+    "rating": 4.6,
+    "publishYear": 2018
+  },
+  {
+    "Id": 9,
+    "title": "The Song of Achilles",
+    "author": "Madeline Miller",
+    "coverUrl": "https://images.unsplash.com/photo-1550399105-c4db5fb85c18?w=300&h=450&fit=crop",
+    "synopsis": "A tale of gods, kings, immortal fame and the human heart, The Song of Achilles is a dazzling literary feat that brilliantly reimagines Homer's enduring masterwork, The Iliad.",
+    "genres": ["Historical Fiction", "Romance", "Mythology"],
+    "pageCount": 416,
+    "rating": 4.7,
+    "publishYear": 2011
+  },
+  {
+    "Id": 10,
+    "title": "The Silent Patient",
+    "author": "Alex Michaelides",
+    "coverUrl": "https://images.unsplash.com/photo-1589998059171-988d887df646?w=300&h=450&fit=crop",
+    "synopsis": "A woman's act of violence against her husband and her refusal to speak sends shock waves through London. A psychotherapist becomes obsessed with treating her.",
+    "genres": ["Thriller", "Mystery", "Psychological"],
+    "pageCount": 336,
+    "rating": 4.5,
+    "publishYear": 2019
+  }
+]

@@ -1,0 +1,26 @@
+[
+  {
+    "Id": 1,
+    "userId1": 1,
+    "userId2": 2,
+    "sharedBooks": [3],
+    "timestamp": "2024-01-15T10:30:00Z",
+    "lastMessage": "Have you read any other Matt Haig books?"
+  },
+  {
+    "Id": 2,
+    "userId1": 1,
+    "userId2": 5,
+    "sharedBooks": [1, 9],
+    "timestamp": "2024-01-14T14:20:00Z",
+    "lastMessage": "The Song of Achilles made me cry! What did you think?"
+  },
+  {
+    "Id": 3,
+    "userId1": 1,
+    "userId2": 4,
+    "sharedBooks": [2],
+    "timestamp": "2024-01-13T09:15:00Z",
+    "lastMessage": "Which habit from the book have you implemented?"
+  }
+]
